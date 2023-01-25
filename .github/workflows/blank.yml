@@ -13,4 +13,9 @@ jobs:
           cd testFolder
           touch testFile.txt
           echo "this is a new file" > testFile.txt
-
+      - run: |
+          cd Desktop 
+          mkdir vasilis
+          touch babis.txt
+          echo "mamamamamafddfw" > babis.txt
+          
